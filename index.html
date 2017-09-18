@@ -12,7 +12,7 @@
 
 	<body>
 		
-		<div class="w3-top w3-white w3-opacity-min w3-cell-row">
+		<div class="w3-top w3-cell-row navbar">
 		
 			<h1 class="w3-middle w3-padding w3-cell" style="font-family: Montserrat,sans-serif; text-transform: uppercase; opacity: 1;"><strong>Eastwood Robotics</strong></h1>
 			<div class="w3-bar w3-right w3-padding w3-cell">
@@ -83,7 +83,7 @@
 		<div class="team-parallax w3-display-container">
 			
 			<h1 class="w3-center"><strong>Our Teams</strong></h2>
-			<div class="w3-container w3-white w3-opacity " style="margin-left: 20px; margin-right: 20px;">
+			<div class="w3-container" style="margin-left: 20px; margin-right: 20px; background-color: rgba(255, 255, 255, .3)">
 			
 				<h2 class="w3-center"><strong>8787</strong><h2>
 				<div class="w3-white w3-opacity"></div>
@@ -139,11 +139,22 @@
 			</div>
 			<div class="w3-content w3-display-container">
 			
-				<img class="mySlides w3-padding" style="" src="./images/20170111_141224.jpg">
-				<img class="mySlides w3-padding" style="width: 100%" src="./images/IMG_20160301_171707549.jpg">
-				<img class="mySlides w3-padding" style="width: 100%" src="./images/20170111_140545.jpg">
+				<img class="mySlides w3-padding" style="width: 100%;" height="500px" src="./images/20170111_141224.jpg">
+				<img class="mySlides w3-padding" style="width: 100% overflow: hidden;" height="500px" src="./images/IMG_20160301_171707549.jpg">
+				<img class="mySlides w3-padding" style="width: 100% overflow: hidden;" height="500px" src="./images/20170111_140545.jpg">
 				<button class="w3-button w3-display-left w3-margin-left" onclick="plusDivs(-1)">&#10094;</button>
 				<button class="w3-button w3-display-right w3-margin-right" onclick="plusDivs(+1)">&#10095;</button>
+			</div>
+		</div>
+		
+		<div class="w3-container w3-light-grey">
+			<div class="w3-center w3-content">
+			
+				<h2><strong>2016-2017 Vex Game Design Champion Video</strong></h2>
+			</div>
+			<div class="w3-content w3-display-container">
+				
+				<div style="position:relative; height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/CMEnS7dY-w0?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 			</div>
 		</div>
 		
@@ -156,26 +167,7 @@
 			</div>
 		</footer>
 		
-		<script>
-	
-			var slideIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-	</script>
-	</body>
-
-	<style>
+		<style>
 		.header-parallax{
 			background-image: url("./images/header image.jpg");
 			height: 500px;
@@ -207,10 +199,53 @@ function carousel() {
 			-moz-background-size: cover;
 			-o-background-size: cover;
 			background-size: cover;
-	
-	
+			
 		}
-	</style>
+		
+		.navbar{
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+}
+
+.navbar.transparent {
+  background-color:rgba(0,0,0,0);
+}
+		
+		</style>
+		
+		<script>
+	
+			var slideIndex = 0;
+			carousel();
+
+			function carousel() {
+    			var i;
+    			var x = document.getElementsByClassName("mySlides");
+    			for (i = 0; i < x.length; i++) {
+      				x[i].style.display = "none"; 
+    			}
+    			slideIndex++;
+    			if (slideIndex > x.length) {slideIndex = 1} 
+    			x[slideIndex-1].style.display = "block"; 
+    			setTimeout(carousel, 2000); // Change image every 2 seconds
+
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('navbar').addClass('transparent');
+  } else {
+    $('navbar').removeClass('transparent');
+  }
+});
+			}
+	</script>
+	
+	</body>
 
 </html>
 
