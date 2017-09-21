@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="UTF-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> 
+	</head>
+
+	<body>
+		
+		<div class="w3-top w3-cell-row navbar">
+		
+			<h1 class="w3-middle w3-padding w3-cell" style="font-family: Montserrat,sans-serif; text-transform: uppercase; opacity: 1;"><strong>Eastwood Robotics</strong></h1>
+			<div class="w3-bar w3-right w3-padding w3-cell">
+			
+				<a class="w3-bar-item w3-button w3-right" href="./contact-us.html">About</a>
+				<a class="w3-bar-item w3-indigo w3-right">Contact Us</a>
+				<a class="w3-bar-item w3-button w3-right" href="./index.html">Home</a>
+			</div>
+		</div>
+		
+		<div>
+		
+			<div class="header-parallax w3-display-container">
+			
+				<div class="w3-display-middle">
+					<img src="./images/website recources/Eastwood Robotics Logo.png" alt="Eastwood Robotics Logo" width="300px" height="300px">
+				</div>
+			</div>
+		</div>
+		
+		<div class="w3-row w3-light-grey w3-no-padding">
+			
+			<h2 class="w3-center"><strong>Contact Us</strong></h2>
+		
+			<div class="w3-container w3-half w3-light-grey">
+			
+				
+				<form class="w3-container">
+
+					<label>Name</label>
+					<input class="w3-input w3-border" type="text">
+
+					<label>Email</label>
+					<input class="w3-input w3-border" type="text">
+
+					<label>Subject</label>
+					<textarea class="w3-input w3-border w3-padding" type="text"></textarea>
+					<div style="height: 10px;"></div>
+					<button class="w3-btn w3-blue w3-padding">Submit</button>
+				</form> 
+			</div>
+			
+			<div class="w3-container w3-half w3-light-grey">
+			
+				<div class="w3-padding">
+						
+					<iframe class="w3-border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.952657956007!2d-106.35459111401344!3d31.77177713951779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75b304f2aa461%3A0x89ef9bdce2e73003!2sEastwood+High+School!5e0!3m2!1sen!2sus!4v1505950557771" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>				</div>
+			</div>
+		</div>
+		
+		
+		
+		<footer class="w3-container w3-padding-32 w3-bottomleft w3-black w3-xlarge">
+		
+			<div class="">
+			  <a href="https://www.facebook.com/eastwood.robotics/"><i class="fa fa-facebook-official"></i></a>
+			  <a href="https://www.instagram.com/eastwood.robotics/"><i class="fa fa-instagram"></i></a>
+			  <a href="#"><i class="fa fa-twitter"></i></a>
+			</div>
+		</footer>
+		
+		<style>
+		.header-parallax{
+			background-image: url("./images/website recources/header image.jpg");
+			height: 500px;
+			background-attachment: fixed;
+			
+	   		background-position: center;
+			-webkit-background-position: center;
+	    	
+	    	background-repeat: no-repeat;
+
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		.team-parallax{
+			background-image: url("./images/website recources/old-logo.jpg");
+			height: 800px;
+			background-attachment: fixed;
+			
+	   		background-position: center;
+			-webkit-background-position: center;
+	    	
+	    	background-repeat: no-repeat;
+			-webkit-background-repeat: no-repeat;
+
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			
+		}
+		
+		.navbar{
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+}
+
+.navbar.transparent {
+  background-color:rgba(0,0,0,0);
+}
+		
+		</style>
+		
+		<script>
+	
+			var slideIndex = 0;
+			carousel();
+
+			function carousel() {
+    			var i;
+    			var x = document.getElementsByClassName("mySlides");
+    			for (i = 0; i < x.length; i++) {
+      				x[i].style.display = "none"; 
+    			}
+    			slideIndex++;
+    			if (slideIndex > x.length) {slideIndex = 1} 
+    			x[slideIndex-1].style.display = "block"; 
+    			setTimeout(carousel, 2000); // Change image every 2 seconds
+
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('navbar').addClass('transparent');
+  } else {
+    $('navbar').removeClass('transparent');
+  }
+});
+			}
+	</script>
+	
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+	
+	</body>
+
+</html>
+
+<!--
+	Written By Giovanni Leon 2017
+	Website styled using stylesheet created by w3schools.com
+-->
