@@ -1,0 +1,58 @@
+
+.header-parallax{
+	background-image: url("./images/website recources/header image.jpg");
+	height: 500px;
+	background-attachment: fixed;
+	
+   		background-position: center;
+	-webkit-background-position: center;
+    	
+    	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+		
+.team-parallax{
+	background-image: url("./images/website recources/old-logo.jpg");
+	height: 800px;
+	background-attachment: fixed;
+	
+   		background-position: center;
+	-webkit-background-position: center;
+    	
+    	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+		
+.navbar{
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.navbar-inverse {
+	background-color: #222;
+	border-color: #080808;
+}
+
+.navbar.transparent {
+	background-color:rgba(0,0,0,0);
+}
+
+.w3-eastwood-blue{
+	color: rgba(255, 255, 255, 255)!important;
+	background-color: #002e5d!important
+}
+
+.w3-eastwood-blue-text{
+	color:#002e5d!important;
+	background-color: transparent!important
+}
