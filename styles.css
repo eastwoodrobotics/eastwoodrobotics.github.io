@@ -34,25 +34,22 @@
 }
 		
 .navbar{
+	background-color:rgba(0,0,0,0);
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
 
-.navbar-inverse {
-	background-color: #222;
-	border-color: #080808;
-}
-
-.navbar.transparent {
-	background-color:rgba(0,0,0,0);
-}
-
 .w3-eastwood-blue{
 	color: rgba(255, 255, 255, 255)!important;
-	background-color: #002e5d!important
+	background-color: #002e5d!important;
 }
 
 .w3-eastwood-blue-text{
 	color:#002e5d!important;
-	background-color: transparent!important
+	background-color: transparent!important;
+}
+
+.w3-dropdown-hover{
+	
+	background-color: transparent!important;
 }
