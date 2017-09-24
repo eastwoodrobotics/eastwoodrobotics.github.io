@@ -1,4 +1,9 @@
 
+body{
+	
+	background-image: url("./images/website recources/pattern.png");
+}
+
 .header-parallax{
 	background-image: url("./images/website recources/header image.jpg");
 	height: 500px;
@@ -33,10 +38,9 @@
 	
 }
 		
-.navbar{
-	background-color:rgba(0,0,0,0);
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
+.navbar-fixed-top.scrolled {
+  background-color: rgba(255, 255, 255, 1)!important;
+  transition: background-color 200ms linear;
 }
 
 .w3-eastwood-blue{
@@ -46,6 +50,11 @@
 
 .w3-eastwood-blue-text{
 	color:#002e5d!important;
+	background-color: transparent!important;
+}
+
+.w3-eastwood-yellow-text{
+	color: #8C7100!important;
 	background-color: transparent!important;
 }
 

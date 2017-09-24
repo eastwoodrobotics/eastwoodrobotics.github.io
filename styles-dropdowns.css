@@ -1,4 +1,9 @@
 
+body{
+	
+	background-image: url("./images/website recources/pattern.png");
+}
+
 .header-parallax{
 	background-image: url("./images/website recources/header image.jpg");
 	height: 500px;
