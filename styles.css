@@ -4,6 +4,11 @@ body{
 	background-image: url("./images/website recources/pattern.png");
 }
 
+footer{
+	
+	background-image: url("images/website recources/subtle_carbon.png")
+}
+
 .header-parallax{
 	background-image: url("./images/website recources/header image.jpg");
 	height: 500px;
