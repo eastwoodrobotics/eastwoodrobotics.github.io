@@ -1,4 +1,11 @@
 
+p {
+  font-size: 1.01vw;
+}
+li{
+	font-size: 1.01vw;
+}
+
 body{
 	
 	background-image: url("./images/website recources/pattern.png");
@@ -64,6 +71,11 @@ footer{
 
 .w3-eastwood-blue-text{
 	color:#002e5d!important;
+	background-color: transparent!important;
+}
+
+.w3-eastwood-yellow-text{
+	color: #8C7100!important;
 	background-color: transparent!important;
 }
 

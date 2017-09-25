@@ -1,4 +1,11 @@
 
+p {
+  font-size: 1.01vw;
+}
+li{
+	font-size: 1.01vw;
+}
+
 body{
 	
 	background-image: url("./images/website recources/pattern.png");
