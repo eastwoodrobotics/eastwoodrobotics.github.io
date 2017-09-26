@@ -15,6 +15,8 @@
 		
 		<link rel="icon" type="image/png" href="favicon.png" sizes="128x128"/>
 		
+		<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+		
 		<title>8787-C Homepage</title>
 	</head>
 
@@ -84,7 +86,7 @@
 							<h5 class="w3-eastwood-blue-text w3-center"><strong>Maria-Adeliz Ordonez</strong></h5>
 						</div>
 						<div class="w3-display-container w3-half" style="height:350px;">
-							<p class="w3-display-middle w3-left">This is some text filler, i have absolutely no ideo what im trying to say. Nothing that is being written here has any relevancy at all to
+							<p class="w3-display-middle">This is some text filler, i have absolutely no ideo what im trying to say. Nothing that is being written here has any relevancy at all to
 							what this webpage is about. Please help me as im being held against me will and forced to write this website. Nahhhh just kidding but anyways
 							uhhh have a good day.</p>
 						</div>
@@ -94,7 +96,7 @@
 				<div class="w3-col" style="width:80%">
 					<div class="w3-row">
 						<div class="w3-display-container w3-half" style="height:350px;">
-							<p class="w3-display-middle w3-center">My name is Diana Segura and I'm a junior at Eastwood. I joined robotics because I am interested in the Engineering field and robotics is the perfect opportunity to apply my interests. I am the head programmer and one of the builders for the girls team. I plan to become an engineer and my hobbies are being in band flags, reading, and volunteering for the humane society</p>
+							<p class="w3-display-middle">My name is Diana Segura and I'm a junior at Eastwood. I joined robotics because I am interested in the Engineering field and robotics is the perfect opportunity to apply my interests. I am the head programmer and one of the builders for the girls team. I plan to become an engineer and my hobbies are being in band flags, reading, and volunteering for the humane society</p>
 						</div>
 						<div class="w3-display-container w3-half" style="height:350px;">
 							<img class="w3-display-middle" src="./images/website recources/avatar.jpg" alt="Eastwood Robotics Logo" width="250px" height="250px">
@@ -118,9 +120,7 @@
 				<div class="w3-col" style="width:80%">
 					<div class="w3-row">
 						<div class="w3-display-container w3-half" style="height:350px;">
-							<p class="w3-display-middle">This is some text filler, i have absolutely no ideo what im trying to say. Nothing that is being written here has any relevancy at all to
-							what this webpage is about. Please help me as im being held against me will and forced to write this website. Nahhhh just kidding but anyways
-							uhhh have a good day.</p>
+							<p class="w3-display-middle">My name is Victoria Padilla and I'm a senior at Eastwood. I am one of the builders for the girls team and work on the engineering notebook for the team as well. I joined robotics because I love the people there. I plan to become an Law Enforcement Officer and my hobbies include photography, band, and binge watching hulu.</p>
 						</div>
 						<div class="w3-display-container w3-half" style="height:350px;">
 							<img class="w3-display-middle" src="./images/website recources/avatar.jpg" alt="Eastwood Robotics Logo" width="250px" height="250px">
@@ -136,7 +136,7 @@
 							<h5 class="w3-eastwood-blue-text w3-center"><strong>Sara Graham</strong></h5>
 						</div>
 						<div class="w3-display-container w3-half" style="height:300px;">
-							<p class="w3-display-middle">My name is Sara Graham and I'm a sophomore at Eastwood. I work on the engineering notebook for the all girls team. I joined robotics because I wanted to experience the making of robots. I plan to become an Architect and msy hobbies include drawing.</p>
+							<p class="w3-display-middle">My name is Sara Graham and I'm a sophomore at Eastwood. I work on the engineering notebook for the all girls team. I joined robotics because I wanted to experience the making of robots. I plan to become an Architect and my hobbies include drawing.</p>
 						</div>
 					</div>
 				</div>
@@ -188,11 +188,11 @@
 	<script>
 	
 		$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
+			$(document).scroll(function () {
+				var $nav = $(".navbar-fixed-top");
+				$nav.toggleClass('scrolled', $(this).scrollTop() > ($nav.height() + 300));
+			});
+		});
 	</script>
 	
 	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>

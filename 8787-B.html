@@ -15,6 +15,8 @@
 		
 		<link rel="icon" type="image/png" href="favicon.png" sizes="128x128"/>
 		
+		<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+		
 		<title>8787-B Homepage</title>
 	</head>
 
@@ -154,11 +156,11 @@
 	<script>
 	
 		$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
+			$(document).scroll(function () {
+				var $nav = $(".navbar-fixed-top");
+				$nav.toggleClass('scrolled', $(this).scrollTop() > ($nav.height() + 300));
+			});
+		});
 	</script>
 	
 	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
