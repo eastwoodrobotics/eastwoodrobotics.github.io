@@ -15,6 +15,8 @@
 		
 		<link rel="icon" type="image/png" href="favicon.png" sizes="128x128"/>
 		
+		<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+		
 		<title>8787 Homepage</title>
 	</head>
 
@@ -66,9 +68,7 @@
 					<div class="w3-col" style="width:20%; height: 100px;"></div>
 					
 					<div class="w3-col" style="width:60%; height: 100px;">
-						<p>This is some text filler, i have absolutely no ideo what im trying to say. Nothing that is being written here has any relevancy at all to
-						what this webpage is about. Please help me as im being held against me will and forced to write this website. Nahhhh just kidding but anyways
-						uhhh have a good day.</p>
+						<p class="w3-center">Team 8787 one of the three teams in the Eastwood Robotics Club. This team is a <strong class="w3-eastwood-yellow-text">three time VEX world competition qualifier</strong> and they have domimated west texas for several yesars. Team 8787 continues challenge themselves and <strong class="w3-eastwood-yellow-text">strive for excellence.</strong></p>
 					</div>
 					
 					<div class="w3-col" style="width:20%; height: 100px;"></div>
@@ -86,9 +86,31 @@
 							<h5 class="w3-eastwood-blue-text w3-center"><strong>Ricardo Ramirez</strong></h5>
 						</div>
 						<div class="w3-display-container w3-half" style="height:350px;">
-							<p class="w3-display-middle">This is some text filler, i have absolutely no ideo what im trying to say. Nothing that is being written here has any relevancy at all to
-							what this webpage is about. Please help me as im being held against me will and forced to write this website. Nahhhh just kidding but anyways
-							uhhh have a good day.</p>
+							<p class="w3-display-middle">My name is Ricardo Ramirez and I'm a senior at Eastwood. I joined robotics because I liked the environment and found a lot of initial interest in programming. I also joined because Mr. Torres is bomb as heck. I am one of the builders for team 8787. I plan to become a Biomedical Engineer and my hobbies are robotics, video games, and netflix.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="w3-col" style="width:80%">
+					<div class="w3-row">
+						<div class="w3-display-container w3-half" style="height:350px;">
+							<p class="w3-display-middle">My name is Giovanni Leon and I'm a senior at Eastwood. I joined robotics because I wanted to find a club that I could call home and fell comfortable in. I am one of the programmers for team 8787. I plan to become an Electrical or Aerospac Engineer and my hobbies are robotics, programming, hanging with friends, and doing nothing</p>
+						</div>
+						<div class="w3-display-container w3-half" style="height:350px;">
+							<img class="w3-display-middle" src="./images/website recources/avatar.jpg" alt="Eastwood Robotics Logo" width="250px" height="250px">
+							<h5 class="w3-eastwood-blue-text w3-center"><strong>Giovanni Leon</strong></h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="w3-col" style="width:80%">
+					<div class="w3-row">
+						<div class="w3-display-container w3-half" style="height:350px;">
+							<img class="w3-display-middle" src="./images/website recources/avatar.jpg" alt="Eastwood Robotics Logo" width="250px" height="250px">
+							<h5 class="w3-eastwood-blue-text w3-center"><strong>Ethan Ramos</strong></h5>
+						</div>
+						<div class="w3-display-container w3-half" style="height:350px;">
+							<p class="w3-display-middle">My name is Ethan Ramos and I'm a senior at Eastwood. I joined robotics because I took the programming class and was interested in going further with robotics. I am one of the builders for team 8787 as well as one of the programmers. I plan to become a Mechanical Engineer with a specialization in protesis and my hobbies are orchestra, football, and debate</p>
 						</div>
 					</div>
 				</div>
@@ -102,32 +124,7 @@
 						</div>
 						<div class="w3-display-container w3-half" style="height:350px;">
 							<img class="w3-display-middle" src="./images/website recources/avatar.jpg" alt="Eastwood Robotics Logo" width="250px" height="250px">
-						</div>
-					</div>
-				</div>
-				
-				<div class="w3-col" style="width:80%">
-					<div class="w3-row">
-						<div class="w3-display-container w3-half" style="height:350px;">
-							<img class="w3-display-middle" src="./images/website recources/avatar.jpg" alt="Eastwood Robotics Logo" width="250px" height="250px">
-						</div>
-						<div class="w3-display-container w3-half" style="height:350px;">
-							<p class="w3-display-middle">This is some text filler, i have absolutely no ideo what im trying to say. Nothing that is being written here has any relevancy at all to
-							what this webpage is about. Please help me as im being held against me will and forced to write this website. Nahhhh just kidding but anyways
-							uhhh have a good day.</p>
-						</div>
-					</div>
-				</div>
-				
-				<div class="w3-col" style="width:80%">
-					<div class="w3-row">
-						<div class="w3-display-container w3-half" style="height:350px;">
-							<p class="w3-display-middle">This is some text filler, i have absolutely no ideo what im trying to say. Nothing that is being written here has any relevancy at all to
-							what this webpage is about. Please help me as im being held against me will and forced to write this website. Nahhhh just kidding but anyways
-							uhhh have a good day.</p>
-						</div>
-						<div class="w3-display-container w3-half" style="height:350px;">
-							<img class="w3-display-middle" src="./images/website recources/avatar.jpg" alt="Eastwood Robotics Logo" width="250px" height="250px">
+							<h5 class="w3-eastwood-blue-text w3-center"><strong>Frances Rangel</strong></h5>
 						</div>
 					</div>
 				</div>
@@ -155,14 +152,12 @@
 	<script>
 	
 		$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
+			$(document).scroll(function () {
+				var $nav = $(".navbar-fixed-top");
+				$nav.toggleClass('scrolled', $(this).scrollTop() > ($nav.height() + 300));
+			});
+		});
 	</script>
-	
-	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 	
 	</body>
 
