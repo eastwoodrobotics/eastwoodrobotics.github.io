@@ -17,6 +17,9 @@
 		
 		<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
 		
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+		
 		<title>Eastwood Robotics Homepage</title>
 	</head>
 
@@ -82,15 +85,15 @@
 						
 							<h2 class="w3-center w3-eastwood-blue-text"><strong>Who We Are</strong></h2>
 							
-							<p class="w3-left">
+							<p data-aos="fade-right" class="w3-left">
 								Eastwood Robotics, or team <strong class="w3-eastwood-yellow-text">8787</strong>, is an elite robotics team based in El Paso, Texas. We have gone to the Vex Robotics World Competition <strong class="w3-eastwood-yellow-text">three Times</strong> and have come back home with multiple awards such as the Teamwork Award and the Volunteer of the Year Award. Eastwood Robotics continues to strive for excellence in the 2017-2018 year by extending its knowledge to the El Paso community by doing things such as <strong class="w3-eastwood-yellow-text">hosting the largest girl powered event in the world</strong> and hosting multiple robotics workshops throughout the year.
 							</p>
 							
 							<hr>
 							
-							<h2 class="w3-center w3-eastwood-blue-text"><strong>Achievements We've Won</strong></h2>
+							<h2 class="w3-center w3-eastwood-blue-text"><strong>Awards We've Won</strong></h2>
 							
-							<div class="w3-row">
+							<div data-aos="fade-left" class="w3-row">
 								<div class="w3-container w3-half">
 								
 									<ul class="w3-center" style="list-style-type: none;">
@@ -250,6 +253,8 @@
 					$nav.toggleClass('scrolled', $(this).scrollTop() > ($nav.height() + 400));
 				});
 			});
+			
+			AOS.init();
 		</script>
 	</body>
 </html>
