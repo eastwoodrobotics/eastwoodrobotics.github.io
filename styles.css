@@ -7,6 +7,22 @@ li{
 	font-size: 1.01vw;
 }
 
+h1{
+	
+	font-size: 4vh;
+	
+}
+
+h2{
+	
+	font-size: 3.5vh;
+}
+
+h3{
+	
+	font-size: 3vh;
+}
+
 body{
 	
 	background-image: url("./images/website recources/pattern.png");
@@ -59,6 +75,16 @@ footer{
 .w3-eastwood-blue{
 	color: rgba(255, 255, 255, 255)!important;
 	background-color: #002e5d!important;
+}
+
+.w3-girl-powered-purple{
+	color: rgba(255, 255, 255, 255)!important;
+	background-color: #a1237f!important;
+}
+
+.w3-girl-powered-purple-text{
+	color: #a1237f!important;
+	background-color: transparent;
 }
 
 .w3-eastwood-blue-text{
