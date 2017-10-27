@@ -6,14 +6,14 @@
 
 		<meta charset="UTF-8"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="w3.css">
+		<link rel="stylesheet" href="../w3.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
 		
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="../styles-dropdowns.css">
 		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> 
 		
-		<link rel="icon" type="image/png" href="favicon.png" sizes="128x128"/>
+		<link rel="icon" type="image/png" href="../favicon.png" sizes="128x128"/>
 		
 		<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
 		
@@ -32,30 +32,57 @@
 			<h1 class="w3-middle w3-padding w3-cell" style="font-family: Montserrat,sans-serif; text-transform: uppercase; opacity: 1;"><strong>Eastwood Robotics</strong></h1>
 			<div class="w3-bar w3-right w3-padding w3-cell">
 			
-				<a class="w3-bar-item w3-eastwood-blue w3-right w3-round"><strong>Girl Powered</strong></a>  
-			
-				<a class="w3-bar-item w3-button w3-right" href="./contact-us.html"><strong>Recources</strong></a>
+				<a class="w3-bar-item w3-button w3-right" href="../contact us.html"><strong>Contact Us</strong></a>
+				
+				<div class="w3-dropdown-hover w3-right w3-eastwood-blue w3-round">
+					<button class="w3-button w3-round"><strong>About</strong></button>
+					<div class="w3-dropdown-content w3-bar-block w3-card-4">
+						  <a href="../about/history.html" class="w3-bar-item w3-button">History</a>
+						  <a href="../about/sponsors.html" class="w3-bar-item w3-button">Sponsors</a>
+						  <a href="../about/community.html" class="w3-bar-item w3-button">Community</a>
+						  <a class="w3-bar-item w3-eastwood-blue">Girl Powered</a>
+					</div>
+				</div>
+				
+				<div class="w3-dropdown-hover w3-right">
+					<button class="w3-button"><strong>Resources</strong></button>
+					<div class="w3-dropdown-content w3-bar-block w3-card-4">
+						  <a href="../resources/documents.html" class="w3-bar-item w3-button">Documents</a>
+						  <a href="../resources/image-resources.html" class="w3-bar-item w3-button">Image Resources</a>
+						  <a href="../resources/website-src.html" class="w3-bar-item w3-button">Website SRC</a>
+					</div>
+				</div>
 				
 				<div class="w3-dropdown-hover w3-right">
 					<button class="w3-button"><strong>Media</strong></button>
 					<div class="w3-dropdown-content w3-bar-block w3-card-4">
-						  <a href="./photos.html" class="w3-bar-item w3-button">Photos</a>
-						  <a href="#" class="w3-bar-item w3-button">Website</a>
+						  <a href="../media/photos.html" class="w3-bar-item w3-button">Photos</a>
+						  <a href="../media/newsletter.html" class="w3-bar-item w3-button">Newsletter</a>
 					</div>
 				</div>
 				
 				<div class="w3-dropdown-hover w3-right">
 					<button class="w3-button"><strong>Teams</strong></button>
 					<div class="w3-dropdown-content w3-bar-block w3-card-4">
-						  <a href="8787-A.html" class="w3-bar-item w3-button">8787-A</a>
-						  <a href="./8787-B.html" class="w3-bar-item w3-button">8787-B</a>
-						  <a href="./8787-C.html" class="w3-bar-item w3-button">8787-C</a>
+						  <a href="../teams/8787-A.html" class="w3-bar-item w3-button">8787-A</a>
+						  <a href="../teams/8787-B.html" class="w3-bar-item w3-button">8787-B</a>
+						  <a href="../teams/8787-C.html" class="w3-bar-item w3-button">8787-C</a>
+						  <a href="../teams/officers.html" class="w3-bar-item w3-button">Officers</a>
 					</div>
 				</div>
-			
-				<a class="w3-bar-item w3-right"><strong>Contact Us</strong></a>
-				<a class="w3-bar-item w3-button w3-right" href="./index.html"><strong>Home</strong></a>
+				
+				<div class="w3-dropdown-hover w3-right">
+					<button class="w3-button"><strong>Overview</strong></button>
+					<div class="w3-dropdown-content w3-bar-block w3-card-4">
+						  <a href="../overview/game-overview.html" class="w3-bar-item w3-button">Game Overview</a>
+						  <a href="../overview/events.html" class="w3-bar-item w3-button">Events</a>
+					</div>
+				</div>
+				
+				<a class="w3-bar-item w3-button w3-right" href="../index.html"><strong>Home</strong></a>
 			</div>
+			
+			<a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-theme w3-large" href="javascript:void(0)" onclick="w3_open()"><strong style="font-size: 4vh">☰</strong></a>
 		</div>
 		
 		<div>
@@ -63,7 +90,7 @@
 			<div class="header-parallax w3-display-container">
 			
 				<div class="w3-display-middle">
-					<img class="w3-animate-top" src="./images/website recources/Eastwood Robotics Logo.png" alt="Eastwood Robotics Logo" width="300px" height="300px">
+					<img class="w3-animate-top" src="../images/website recources/Eastwood Robotics Logo.png" alt="Eastwood Robotics Logo" width="300px" height="300px">
 				</div>
 			</div>
 		</div>
@@ -72,17 +99,13 @@
 		<div style="background-color: rgba(0, 174, 239, .1)">
 		
 		
-		<div class= "w3-row" style="width:100%; height: 200px;">
-		<div class="w3-col w3-half w3-display-container" style="height: 100%;">
+			<div class= "w3-row" style="width:100%; height: 200px;">
+				<div class="w3-col w3-half w3-display-container" style="width: 100%; height: 100%;">
 
-					<img class="w3-display-middle w3-round-large" src="images/gp logo.png" height="80%">	
-						</div>	
-		</div>
-		<div>
-
-				<h1 class="w3-center w3-eastwood-blue-text"> <strong>Girl Powered</strong></h1>
+					<img class="w3-display-middle w3-round-large" src="../images/gp logo.png" height="80%">	
+				</div>	
 			</div>
-
+			
 			<div class= "w3-row" style="width:100%; height: 600px;">
 
 				<div class="w3-col" style="width:5%; height: 100%;"></div>
@@ -93,14 +116,14 @@
 
 						<div class="w3-half w3-display-container" style="height:100%;">
 
-								<p class= "w3-center w3-large w3-padding w3-display-middle" style="width:100%; "> Eastwood High School hosted the biggest Girl Powered event in the world just last year. We were recognized at Wolrds for this remarkable achievement that could'nt have been possible wihtout the help from our administration and our dedicated robotics team members. We are eternally greatful for this oportunity which allowed us to make such a tremendous difference in over 350 girls. Our greatest mission is not only to win nor attend Worlds, there is a greater purpose in being in robotics for us. This is to make a real life impact in girls' lives now more than ever. We encourage all girls to undertsand that they have the same capabilities as boys do. The same intelligence and the same will. We, Eastwood Robotics, do everything in our power to inspire girls around us to join the STEM field, knowing it's a safe environment for them as much as it is for boys. If anyone says you can not do something, let that push you even more to persevere. As Mae Jemison, physicist and astronaut, said: "Don't let anyone rob you of your imagination, your creativity, or your curiosity." 
+								<p class="w3-padding w3-display-middle w3-center" style="width: 100%;"> Eastwood High School hosted the biggest Girl Powered event in the world just last year. We were recognized at Wolrds for this remarkable achievement that could'nt have been possible wihtout the help from our administration and our dedicated robotics team members. We are eternally greatful for this oportunity which allowed us to make such a tremendous difference in over 350 girls. Our greatest mission is not only to win nor attend Worlds, there is a greater purpose in being in robotics for us. This is to make a real life impact in girls' lives now more than ever. We encourage all girls to undertsand that they have the same capabilities as boys do. The same intelligence and the same will. We, Eastwood Robotics, do everything in our power to inspire girls around us to join the STEM field, knowing it's a safe environment for them as much as it is for boys. If anyone says you can not do something, let that push you even more to persevere. As Mae Jemison, physicist and astronaut, said: "Don't let anyone rob you of your imagination, your creativity, or your curiosity." 
 								</p>
 						</div>
 
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong>Girl Powered at Worlds 2017</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/website recources/gp.jpg" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/website recources/gp.jpg" height="80%">	
 						</div>	
 					</div>
 				</div>	
@@ -112,17 +135,18 @@
 
 				<h1 class="w3-center w3-eastwood-blue-text"> Girl Powered 2018 </h1>
 			</div>
+			
 			<div>
 				
 
-				<p class="w3-center w3-large w3-padding "> This year Eastwood High School hosted its annual Girl Powered event with over 550 girls attending. Every year we aspire to make a difference in every single one of these girls. Meet the groups that attended and what they had to say about <strong> girl empowerment</strong>. </p>
+				<p class="w3-center w3-padding"> This year Eastwood High School hosted its annual Girl Powered event with over 550 girls attending. Every year we aspire to make a difference in every single one of these girls. Meet the groups that attended and what they had to say about <strong class="w3-girl-powered-purple-text"> girl empowerment</strong>. </p>
 			</div>
 			
 			
 			
 			
 <div>
-			<div class= "w3-row" style="width:100%; height: 600px;">
+			<div class= "w3-row" style="width:100%; height: 400px;">
 
 				<div class="w3-col" style="width:5%; height: 100%;"></div>
 
@@ -133,14 +157,15 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 						<h5 class="w3-eastwood-blue-text w3-center"><strong> Sageland Elementary</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09448.JPG" height="80%">	
-						</div>	 
+						
+						<img class="w3-display-middle w3-round-large" src="../images/DSC09448.JPG" width="90%">	
+					</div>	 
 
-						<div class="w3-half w3-display-container" style="height:100%;">
+					<div class="w3-half w3-display-container" style="height:100%;">
 
-							<p class= "w3-center w3-large w3-padding w3-display-middle" style="width:70%;">
-							"Always question, always wonder." - STEM U</p>
-						</div>
+						<p class= "w3-center w3-large w3-padding w3-display-middle" style="width:70%;">
+							"Always question, always wonder."</br>- STEM U</p>
+					</div>
 					</div>	    
 				</div>
 
@@ -150,7 +175,7 @@
 			
 			
 <div >
-			<div class= "w3-row" style="width:100%; height: 600px;">
+			<div class= "w3-row" style="width:100%; height: 400px;">
 
 				<div class="w3-col" style="width:5%; height: 100%;"></div>
 
@@ -161,14 +186,14 @@
 						<div class="w3-half  w3-display-container" style="height:100%;">
 
 							<p class= "w3-center w3-large w3-padding w3-display-middle" style="width:100%;">
-							"You can do anything." - Samantha
+								"You can do anything."</br>- Samantha
 							</p>
 						</div>
 
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong>North Star Elementary</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09487.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09487.JPG" width="80%">	
 						</div>	
 
 					</div>	
@@ -181,7 +206,7 @@
 		
 		
 		<div >
-			<div class= "w3-row" style="width:100%; height: 600px;">
+			<div class= "w3-row" style="width:100%; height: 400px;">
 
 				<div class="w3-col" style="width:5%; height: 100%;"></div>
 
@@ -192,12 +217,12 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong> St. Patrick School</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09502.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09502.JPG" width="80%">	
 						</div>	 
 
 						<div class="w3-half w3-display-container" style="height:100%;">
 
-							<p class= "w3-center w3-large w3-padding w3-display-middle" style="width:70%;">"Girls can learn Math and Science." - Sofia</p>
+							<p class= "w3-center w3-large w3-padding w3-display-middle" style="width:70%;">"Girls can learn Math and Science."</br>- Sofia</p>
 						</div>
 					</div>	    
 				</div>
@@ -209,7 +234,7 @@
 			
 			
 			<div>
-			<div class= "w3-row" style="width:100%; height: 600px;">
+			<div class= "w3-row" style="width:100%; height: 400px;">
 
 				<div class="w3-col" style="width:5%; height: 100%;"></div>
 
@@ -226,7 +251,7 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong>Ascarate Elementary</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09503.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09503.JPG" height="80%">	
 						</div>	
 
 					</div>	
@@ -241,7 +266,7 @@
 		
 		
 		<div >
-		<div class= "w3-row" style="width:100%; height: 600px;">
+		<div class= "w3-row" style="width:100%; height: 400px;">
 
 				<div class="w3-col" style="width:5%; height: 100%;"></div>
 
@@ -252,7 +277,7 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong> Tierra del Sol</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09507.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09507.JPG" height="80%">	
 						</div>	 
 
 						<div class="w3-half w3-display-container" style="height:100%;">
@@ -269,7 +294,7 @@
 			
 			
 			<div>
-			<div class= "w3-row" style="width:100%; height: 600px;">
+			<div class= "w3-row" style="width:100%; height: 400px;">
 
 				
 
@@ -287,7 +312,7 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong>Fabens Middle School</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09516.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09516.JPG" height="80%">	
 						</div>	
 
 					</div>	
@@ -302,7 +327,7 @@
 		
 		
 		<div>
-		<div class= "w3-row" style="width:100%; height: 600px;">
+		<div class= "w3-row" style="width:100%; height: 400px;">
 
 				<div class="w3-col" style="width:5%; height: 100%;"></div>
 
@@ -313,7 +338,7 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong> East Point Elementary</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09576.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09576.JPG" height="80%">	
 						</div>	 
 
 						<div class="w3-half w3-display-container" style="height:100%;">
@@ -331,7 +356,7 @@
 			
 			
 			<div>
-			<div class= "w3-row" style="width:100%; height: 600px;">
+			<div class= "w3-row" style="width:100%; height: 400px;">
 
 				
 
@@ -349,7 +374,7 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong>Valley View Middle School</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09620.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09620.JPG" height="80%">	
 						</div>	
 
 					</div>	
@@ -369,7 +394,7 @@
 
 
 		<div>
-		<div class= "w3-row" style="width:100%; height: 600px;">
+		<div class= "w3-row" style="width:100%; height: 400px;">
 
 				<div class="w3-col" style="width:5%; height: 100%;"></div>
 
@@ -380,7 +405,7 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong> East Point Elementary</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09642.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09642.JPG" height="80%">	
 						</div>	 
 
 						<div class="w3-half w3-display-container" style="height:100%;">
@@ -401,7 +426,7 @@
 
 
 	<div>
-			<div class= "w3-row" style="width:100%; height: 600px;">
+			<div class= "w3-row" style="width:100%; height: 400px;">
 
 				
 
@@ -419,7 +444,7 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong>Tierra del Sol</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09650.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09650.JPG" height="80%">	
 						</div>	
 
 					</div>	
@@ -436,7 +461,7 @@
 		
 		
 		<div>
-		<div class= "w3-row" style="width:100%; height: 600px;">
+		<div class= "w3-row" style="width:100%; height: 400px;">
 
 				<div class="w3-col" style="width:5%; height: 100%;"></div>
 
@@ -447,7 +472,7 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong> Lundy Elementary</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09713.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09713.JPG" height="80%">	
 						</div>	 
 
 						<div class="w3-half w3-display-container" style="height:100%;">
@@ -467,7 +492,7 @@
 
 
 <div>
-			<div class= "w3-row" style="width:100%; height: 600px;">
+			<div class= "w3-row" style="width:100%; height: 400px;">
 
 				
 
@@ -485,7 +510,7 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong>Loretto Academy</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="DSC09743.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../DSC09743.JPG" height="80%">	
 						</div>	
 
 					</div>	
@@ -499,7 +524,7 @@
 		
 		
 		<div>
-		<div class= "w3-row" style="width:100%; height: 600px;">
+		<div class= "w3-row" style="width:100%; height: 400px;">
 
 				<div class="w3-col" style="width:5%; height: 100%;"></div>
 
@@ -510,7 +535,7 @@
 						<div class="w3-col w3-half w3-display-container" style="height: 100%;">
 
 							<h5 class="w3-eastwood-blue-text w3-center"><strong> Ysleta High School</strong></h5>
-							<img class="w3-display-middle w3-round-large" src="images/DSC09713.JPG" height="80%">	
+							<img class="w3-display-middle w3-round-large" src="../images/DSC09713.JPG" height="80%">	
 						</div>	 
 
 						<div class="w3-half w3-display-container" style="height:100%;">
